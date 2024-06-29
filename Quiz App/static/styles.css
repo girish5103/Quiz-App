@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('/static/bgimage.jpg'); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.quiz-container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+}
+
+#quote {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.hide {
+    display: none;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.correct {
+    background: #28a745;
+}
+
+.wrong {
+    background: #dc3545;
+}
+
+.developer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 5px;
+    border-radius: 5px;
+}
