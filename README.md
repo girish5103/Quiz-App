@@ -17,17 +17,21 @@ This project is a quiz application where users can test their knowledge with mul
 
 ## Installation and Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
+   
    git clone https://github.com/girish5103/Quiz-App.git
+   
    cd Quiz-App
    
-2. Install dependencies (Flask):
+3. **Install dependencies (Flask):**
+
    pip install Flask
    
-3. Run the Flask server:
+5. **Run the Flask server:**
+
    python app.py
 
-4. Open http://localhost:5000 in your web browser to view the application.
+6. Open http://localhost:5000 in your web browser to view the application.
 
 
 ## **Contributing**
